@@ -119,6 +119,13 @@ public function  MiedzyPowiedzeniemAction()
     return $this->render('default/Aby-do-wiosny.html.twig');
 }
 
+    /**
+ * @Route("/co-komu-pisane.html", name="co-komu-pisane")
+ */
+public function cokomupisaneAction()
+{
+    return $this->render('default/co-komu-pisane.html.twig');
+}
     /*
      * G
      */
