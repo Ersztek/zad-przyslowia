@@ -165,6 +165,13 @@ public function  MiedzyPowiedzeniemAction()
 
 
 /**
+ * @Route("/gorzkie-lekarstwo.html", name="gorzkie-lekarstwo")
+ */
+public function gorzkieLekarstwo()
+{
+    return $this->render('default/gorzkie-lekarstwo.html.twig');
+}
+/**
  * @Route("/co-lato-odklada.html", name="co-lato-odklada")
  */
 public function coLatoOdkladaAction()
